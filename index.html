@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+    
+    <title>Project 77</title>
+    <style>
+    body{
+        background-color:chartreuse;
+        text-align:center;
+        color:cornsilk;
+    }
+    </style>
+</head>
+<body>
+    <p id="name"></p>
+    <h1 id="label1"></h1>
+    <h3 id="label2"></h3>
+</body>
+<p>
+    <h1 id="Test1"></h1>
+</p>
+<script>
+    var first_name = "Ayaan";
+    var last_name = "Mahajan";
+    document.getElementById("label1").innerHTML = first_name.concat(" ", last_name);
+    console.log(first_name.concat(" ", last_name));
+
+    var age = (first_name.length + last_name.length) - 1;
+    document.getElementById("label2").innerHTML = age;
+    console.log(age);
+</script>
+</html>
+
